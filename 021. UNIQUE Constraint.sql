@@ -1,5 +1,5 @@
 -- <HOPTEI>
--- UNIQUE KEYWORD
+-- UNIQUE Constraint
 --
 -- UNIQUE means:
 -- "A value in this column cannot be duplicated."
