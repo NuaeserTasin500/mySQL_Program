@@ -12,7 +12,7 @@ CREATE TABLE products
 (
 	product_id INT UNIQUE,
     product_name VARCHAR(25),
-    product_price VARCHAR(25),
+    product_model VARCHAR(25),
     price DECIMAL(10, 2) NOT NULL
 );
 
