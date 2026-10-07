@@ -101,15 +101,15 @@ CREATE TABLE departments
 -- Insert data into students
 
 INSERT INTO students
-VALUES	(22160903, 'Arif', 'Rahman', 60, 'CSE', '3rd'),
-		(22260904, 'Nusrat', 'Jahan', 60, 'CSE', '4th'),
-		(22260905, 'Fahim', 'Ahmed', 60, 'CSE', '4th'),
-		(22162910, 'Samira', 'Sultana', 62, 'AE', '3rd'),
-		(22162555, 'Oliver', 'Bennett', 62, 'AE', '3rd'),
-		(22270478, 'Emily', 'Carter', 70, 'EEE', '4th'),
-		(22270700, 'Haruto', 'Tanaka', 70, 'EEE', '4th'),
-		(22290356, 'Yuki', 'Nakamura', 90, 'BBA', '4th'),
-		(22190888, 'Ren', 'Takahashi', 90, 'BBA', '3rd');
+VALUES	(22160903, 'Arif', 'Rahman', 60, 'CSE', '4th'),
+		(22260904, 'Nusrat', 'Jahan', 60, 'CSE', '3rd'),
+		(22260905, 'Fahim', 'Ahmed', 60, 'CSE', '3rd'),
+		(22162910, 'Samira', 'Sultana', 62, 'AE', '4th'),
+		(22162555, 'Oliver', 'Bennett', 62, 'AE', '4th'),
+		(22270478, 'Emily', 'Carter', 70, 'EEE', '3rd'),
+		(22270700, 'Haruto', 'Tanaka', 70, 'EEE', '3rd'),
+		(22290356, 'Yuki', 'Nakamura', 90, 'BBA', '3rd'),
+		(22190888, 'Ren', 'Takahashi', 90, 'BBA', '4th');
 
 
 -- Insert data into departments
