@@ -30,7 +30,7 @@ VALUES	(3081, "Arif", "Rahman", 3, 3.56, "2022-03-04"), -- means Arif Rahman get
         (3083, "Fahim", "Ahmed", 4, 3.57, "2022-03-06"),
         (3084, "Samira", "Sultana", 3, 3.55, "2022-03-08"),
         (3085, "Oliver", "Bennett", 3, 2.67, "2022-03-08");
-        
+
 -- suppose Emily Carter's semester data is missing and Haruto Tanaka's getting_cgpa_date data is missing.
 -- Now we need to Insert their data in different way
 
@@ -51,3 +51,5 @@ VALUES	(3088, "Yuki", "Nakamura", 4, 3.66, "2022-03-10"),
 SELECT * FROM students;
 
 --  So this is how we can add data into a table
+
+-- P.S.: In MySQL, we can use either single quotes ('') or double quotes ("") for writing string values in many SQL statements.
