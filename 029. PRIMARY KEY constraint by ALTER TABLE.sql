@@ -11,7 +11,7 @@ CREATE TABLE students(
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     dept VARCHAR(10),
-    semester INT
+    current_semester VARCHAR(4)
 );
 
 
@@ -21,15 +21,15 @@ ADD CONSTRAINT PRIMARY KEY (std_id);
 
 
 INSERT INTO students
-VALUES	(22160903, "Arif", "Rahman", "CSE", 3), 
-		(22260904, "Nusrat", "Jahan", "CSE", 4),
-        (22260905, "Fahim", "Ahmed", "CSE", 4),
-        (22162910, "Samira", "Sultana", "AE", 3),
-        (22162555, "Oliver", "Bennett", "AE", 3),
-        (22270478, "Emily", "Carter", "EEE", 4),
-        (22270700, "Haruto", "Tanaka", "EEE", 4),
-		(22290356, "Yuki", "Nakamura", "BBA", 4),
-		(22190888, "Ren", "Takahashi", "BBA", 3);
+VALUES	(22160903, "Arif", "Rahman", "CSE", "4th"), 
+		(22260904, "Nusrat", "Jahan", "CSE", "3rd"),
+        (22260905, "Fahim", "Ahmed", "CSE", "3rd"),
+        (22162910, "Samira", "Sultana", "AE", "4th"),
+        (22162555, "Oliver", "Bennett", "AE", "4th"),
+        (22270478, "Emily", "Carter", "EEE", "3rd"),
+        (22270700, "Haruto", "Tanaka", "EEE", "3rd"),
+		(22290356, "Yuki", "Nakamura", "BBA", "3rd"),
+		(22190888, "Ren", "Takahashi", "BBA", "4th");
 
 
 
