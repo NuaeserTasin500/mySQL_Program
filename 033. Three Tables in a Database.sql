@@ -45,7 +45,7 @@ CREATE TABLE students
     last_name VARCHAR(50),
     dept_code INT,
     dept_short_form VARCHAR(4),
-    current_semester VARCHAR(20)
+    current_semester VARCHAR(4)
 );
 
 
@@ -128,35 +128,32 @@ CREATE TABLE starting_semesters
 -- Insert data into students
 
 INSERT INTO students
-VALUES
-    (22160903, 'Arif', 'Rahman', 60, 'CSE', '3rd Semester'),
-    (22260904, 'Nusrat', 'Jahan', 60, 'CSE', '4th Semester'),
-    (22260905, 'Fahim', 'Ahmed', 60, 'CSE', '4th Semester'),
-    (22162910, 'Samira', 'Sultana', 62, 'AE', '3rd Semester'),
-    (22162555, 'Oliver', 'Bennett', 62, 'AE', '3rd Semester'),
-    (22270478, 'Emily', 'Carter', 70, 'EEE', '4th Semester'),
-    (22270700, 'Haruto', 'Tanaka', 70, 'EEE', '4th Semester'),
-    (22290356, 'Yuki', 'Nakamura', 90, 'BBA', '4th Semester'),
-    (22190888, 'Ren', 'Takahashi', 90, 'BBA', '3rd Semester');
+VALUES	(22160903, 'Arif', 'Rahman', 60, 'CSE', '4th'),
+		(22260904, 'Nusrat', 'Jahan', 60, 'CSE', '3rd'),
+		(22260905, 'Fahim', 'Ahmed', 60, 'CSE', '3rd'),
+		(22162910, 'Samira', 'Sultana', 62, 'AE', '4th'),
+		(22162555, 'Oliver', 'Bennett', 62, 'AE', '4th'),
+		(22270478, 'Emily', 'Carter', 70, 'EEE', '3rd'),
+		(22270700, 'Haruto', 'Tanaka', 70, 'EEE', '3rd'),
+		(22290356, 'Yuki', 'Nakamura', 90, 'BBA', '3rd'),
+		(22190888, 'Ren', 'Takahashi', 90, 'BBA', '4th');
 
 
 -- Insert data into departments
 
 INSERT INTO departments
-VALUES
-    (60, 'Computer Science and Engineering'),
-    (62, 'Architecture Engineering'),
-    (70, 'Electrical and Electronic Engineering'),
-    (90, 'Business Administration');
+VALUES  (60, 'Computer Science and Engineering'),
+        (62, 'Architecture Engineering'),
+        (70, 'Electrical and Electronic Engineering'),
+        (90, 'Business Administration');
 
 
 -- Insert data into starting_semesters
 
 INSERT INTO starting_semesters
-VALUES
-    (1, 'Spring'),
-    (2, 'Summer'),
-    (3, 'Fall');
+VALUES  (1, 'Spring'),
+        (2, 'Summer'),
+        (3, 'Fall');
 
 
 -- Display the tables
